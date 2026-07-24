@@ -1,8 +1,9 @@
+#include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
 #include<sys/stat.h>
 
-int main()
+int main( int argc, char *argv[] )
     {
     
     int fd = open("example.txt", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
