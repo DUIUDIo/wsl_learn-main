@@ -16,6 +16,6 @@ int main( int argc, char const*argv[] )
         }
 
     printf("test1: 子进程执行命令: %s 编号 PID:%d \n", argv[1], getpid());
-    wait(NULL); // 等待子进程结束
+    sleep(100); // 等待子进程结束
     return 0;
     }
