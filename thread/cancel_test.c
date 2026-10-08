@@ -5,7 +5,6 @@
 void *thread_function(void *arg)
 {
 
-   
     printf("子线程正在运行\n");
     pthread_setcancelstate(PTHREAD_CANCEL_DISABLE, NULL);
     
