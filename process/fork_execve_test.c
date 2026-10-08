@@ -19,6 +19,7 @@ int main( int argc, char *argv[] )
         perror("错误，无法创建子进程");
         return -1;
         }
+        
     else if (pid == 0)
         {
         char *newname = "ZJ";
